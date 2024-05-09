@@ -47,8 +47,19 @@ label {
     text-align: center;
 }
 
-.btn-container > input {
+.btn-container {
+    flex-flow: column;
+    align-items: center;
+}
+
+.errDiv {
+    color: red;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* .btn-container > input {
     display: block;
     margin: 0 auto;
-}
+} */
 
