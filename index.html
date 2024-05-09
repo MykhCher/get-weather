@@ -8,6 +8,45 @@
     <title>Get Weather</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Weather Map</h1>
+        <form>
+            <div class="input-container">
+                <label for="city-name">City Name</label>
+                <input type="text" id="city-name">
+            </div>
+            <div class="input-container">
+                <label for="city-id">City Id</label>
+                <input type="text" id="city-id" disabled>
+            </div>
+            <div class="radio-container blue">
+                <div>
+                    <label for="city-name-radio">City Name</label>
+                    <input type="radio" name="city-radio" id="city-name-radio" checked>
+                </div>
+                <div>
+                    <label for="city-id-radio">City Id</label>
+                    <input type="radio" name="city-radio" id="city-id-radio">
+                </div>
+            </div>
+            <div class="weather-data blue">
+                <div>
+                    <h3>Temperature</h3>
+                    <div id="temp">-</div>
+                </div>
+                <div>
+                    <h3>Wind speed</h3>
+                    <div id="wind">-</div>
+                </div>
+                <div>
+                    <h3>Humidity</h3>
+                    <div id="humidity">-</div>
+                </div>
+            </div>
+            <div class="btn-container">
+                <input type="button" value="Get Weather">
+            </div>
+        </form>
+    </div>
 </body>
 </html>

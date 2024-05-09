@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+form {
+    border: 2px solid black;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 3px;
+}
+
+.input-container {
+    border: 2px solid green;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.blue {
+    border: 2px solid blue
+}
+
+.blue > div {
+    display: flex;
+    padding: 0 7.5px;
+    flex-flow: column;
+}
+
+.weather-data > div > div {
+    border: 2px solid blue;
+    padding: 6px;
+    text-align: center;
+}
+
+.btn-container > input {
+    display: block;
+    margin: 0 auto;
+}
+
